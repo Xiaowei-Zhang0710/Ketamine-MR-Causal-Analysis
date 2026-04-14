@@ -14,3 +14,6 @@ Purpose: To serve as a bridge between MR statistical results and spatial visuali
 Core Logic: Aggregates multi-omics causal results across cell types. It identifies a leading SNP for each causal target gene.   
 Priority Logic Logic: Identifies the most representative leading SNP by prioritizing the SNP with the lowest $P$-value from the GWAS results; if none is available, defaults to the SNP with the lowest $P$-value from the exposure eQTLs.   
 Output: Generates a standardized coordinate table for genome-wide mapping.
+### Step 3: Genomic Landscape Visualization (2.plot1_cytoband_with_degSTAR.r)
+Figure 3q: Displays the complete genomic distribution of the 8 causal genes across human chromosomes 1–22.  
+Visual Mapping: Integrates cytoband ideograms (using hg19_cytoBand.txt), SNP markers , cell-type associations (dots), and ketamine-rescued DEG  (stars) .
