@@ -9,3 +9,8 @@ Logic: Implements "sign flipping" for beta values to maintain effect direction r
 ### Step 1: Causal Inference & Local Mapping (1.run.smr_all_process.r)
 Two-Sample MR: Uses the TwoSampleMR package ($P \le 10^{-5}$, $r^2 < 0.01$) to evaluate the causality of mouse DEGs in human MDD risk.  
 Gviz Plotting: Visualizes specific risk loci  relative to gene structures using biomaRt.
+### Step 2: Result Aggregation and Leading SNP Identification (2.plot0.get_cytoband_full.r) 
+Purpose: To serve as a bridge between MR statistical results and spatial visualization.   
+Core Logic: Aggregates multi-omics causal results across cell types. It identifies a leading SNP for each causal target gene.   
+Prioritization Logic: Identifies the most representative leading SNP by prioritizing the SNP with the lowest $P$-value from the GWAS results; if none is available, defaults to the SNP with the lowest $P$-value from the exposure eQTLs.   
+Output: Generates a standardized coordinate table for genome-wide mapping.
