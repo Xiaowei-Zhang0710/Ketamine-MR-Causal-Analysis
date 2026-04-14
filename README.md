@@ -23,4 +23,4 @@ Key Packages: TwoSampleMR (v0.5.6), Seurat (v3.1.4), Gviz.
 ## 4. Reference Data
 Cytobands: hg19_cytoBand.txt (included in this repository) provides the chromosomal structure for hg19/b37 assembly.
 ## 5. Note on Spatial Analysis
-The Python-based spatial deconvolution and mapping pipeline (Tangram) is available in our companion repository: [插入第二个仓库链接].
+The Python-based spatial deconvolution and mapping pipeline (Tangram) is available in our companion repository: [https://github.com/Xiaowei-Zhang0710/Ketamine-Spatial-Analysis.git]
