@@ -20,3 +20,5 @@ Visual Mapping: Integrates cytoband ideograms (using hg19_cytoBand.txt), SNP mar
 ## 3. Requirements
 Language: R (v4.3.2)  
 Key Packages: TwoSampleMR (v0.5.6), Seurat (v3.1.4), Gviz.
+## 4. Note on Spatial Analysis
+The Python-based spatial deconvolution and mapping pipeline (Tangram) is available in our companion repository: [插入第二个仓库链接].
